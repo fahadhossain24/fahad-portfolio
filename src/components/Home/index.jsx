@@ -1,25 +1,12 @@
-import React from 'react';
 import './module.home.css'
 import bigImg from '../../images/hero_img.png';
 import { Icon } from '@iconify/react';
+import Header from '../../Shared/Header'
 
 const Home = () => {
     return (
         <div className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
-            <div className=''>
-                <div className='w-[1280px] mx-auto flex text-white justify-between items-center  h-[70px]'>
-                    <h2 className='text-3xl font-bold'>F<span className='text-[#ff6d5a] text-4xl'>A</span>H<span className='text-[#ff6d5a] text-4xl'>A</span>D</h2>
-                    <ul className='text-[#bbb] flex gap-5 justify-center text-xl '>
-                        <li className='p-2  border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>Home</li>
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>About Me</li>
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>Services</li>
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>Protfolio</li>
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>Reviews</li>
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] transition-all'>Get In Touch</li>
-                    </ul>
-                    <button className='bg-[#ff6d5a] py-2 px-6 text-lg font-medium rounded-xl'>Hire Me</button>
-                </div>
-            </div>
+            <Header/>
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
@@ -27,11 +14,9 @@ const Home = () => {
                 </div>
                 <div>
                     <h1 className='text-[#afadd3] text-7xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
-                    <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <span className='text-[#ff6d5a]'>Let's Talk</span></p>
+                    <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <a href='https://www.facebook.com/1fahadhossain' className='text-[#ff6d5a]'>Let's Talk</a></p>
                 </div>
             </div>
-
-
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto flex xl:justify-between lg:justify-evenly md:justify-around sm:justify-center sm:gap-2 xl:absolute top-[190px] right-0 left-0'>
                 <div>
@@ -44,10 +29,10 @@ const Home = () => {
                         <p className='text-[#e2e1e1] text-md font-normal'>fahadhossaim24@gmail.com</p>
                     </div>
                     <div className='flex gap-4 w-[250px] text-3xl mt-11 text-[#47449e] '>
-                        <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
-                        <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
+                        <a href='https://www.facebook.com/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
+                        <a href='https://www.linkedin.com/in/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
                         <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:twitter" /></a>
-                        <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
+                        <a href='https://github.com/fahadhossain24' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
                     </div>
                 </div>
                 <div>

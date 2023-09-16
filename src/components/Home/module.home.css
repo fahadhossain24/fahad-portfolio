@@ -1,3 +1,18 @@
-.my-radial-gradient{
-    background-image: radial-gradient( #211d75,  #09072d);
+.my-radial-gradient {
+    background-image: radial-gradient(#211d75, #09072d);
+}
+
+@keyframes example {
+    from {
+        margin-right: 55555px;
+    }
+
+    to {
+        margin-right: 0px;
+    }
+}
+
+.myAnimation {
+    animation-name: example;
+    animation-duration: 4s;
 }
