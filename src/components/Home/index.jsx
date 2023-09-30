@@ -1,7 +1,8 @@
 import './module.home.css'
-import bigImg from '../../images/hero_img.png';
+import fahadImg from '../../images/img4.png';
 import { Icon } from '@iconify/react';
 import Header from '../../Shared/Header'
+import Skills from '../Skills';
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
-                    <img src={bigImg} alt="" className='w-[70%] ml-[90px]' />
+                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] sm:h-[400px] ml-[90px] sm:ml-[70px]' />
                 </div>
                 <div>
                     <h1 className='text-[#afadd3] text-7xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
@@ -53,6 +54,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Skills/>
         </div>
     );
 };
