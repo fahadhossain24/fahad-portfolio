@@ -3,6 +3,7 @@ import fahadImg from '../../images/img4.png';
 import { Icon } from '@iconify/react';
 import Header from '../../Shared/Header'
 import Skills from '../Skills';
+import Services from '../Services';
 
 const Home = () => {
     return (
@@ -55,6 +56,7 @@ const Home = () => {
                 </div>
             </div>
             <Skills/>
+            <Services/>
         </div>
     );
 };
