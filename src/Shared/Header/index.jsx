@@ -14,8 +14,8 @@ const index = () => {
                     <li className='p-2  border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px]  cursor-pointer'>Home</li>
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#skills">Skills</a></li>
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#services">Services</a></li>
-                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>Protfolio</li>
-                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>Reviews</li>
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#protfolio">Portfolio</a></li>
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#reviews">Reviews</a></li>
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>Get In Touch</li>
                 </ul>
 

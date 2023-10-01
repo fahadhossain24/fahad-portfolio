@@ -4,6 +4,8 @@ import { Icon } from '@iconify/react';
 import Header from '../../Shared/Header'
 import Skills from '../Skills';
 import Services from '../Services';
+import Portfolio from '../Portfolio';
+import Reviews from '../Reviews';
 
 const Home = () => {
     return (
@@ -57,6 +59,8 @@ const Home = () => {
             </div>
             <Skills/>
             <Services/>
+            <Portfolio/>
+            <Reviews/>
         </div>
     );
 };
