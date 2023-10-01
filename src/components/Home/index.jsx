@@ -6,6 +6,8 @@ import Skills from '../Skills';
 import Services from '../Services';
 import Portfolio from '../Portfolio';
 import Reviews from '../Reviews';
+import GetInTouch from '../Get-in-touch';
+import Footer from '../../Shared/Footer';
 
 const Home = () => {
     return (
@@ -61,6 +63,8 @@ const Home = () => {
             <Services/>
             <Portfolio/>
             <Reviews/>
+            <GetInTouch/>
+            <Footer/>
         </div>
     );
 };

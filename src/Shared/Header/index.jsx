@@ -16,7 +16,7 @@ const index = () => {
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#services">Services</a></li>
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#protfolio">Portfolio</a></li>
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#reviews">Reviews</a></li>
-                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>Get In Touch</li>
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'><a href="#getInTouch">Get In Touch</a></li>
                 </ul>
 
                 <a href='https://www.facebook.com/1fahadhossain' className='bg-[#ff6d5a] py-2 px-6 text-lg font-medium rounded-xl md:hidden sm:hidden xl:block lg:block'>Hire Me</a>
