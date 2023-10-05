@@ -9,6 +9,7 @@ import Reviews from '../Reviews';
 import GetInTouch from '../Get-in-touch';
 import Footer from '../../Shared/Footer';
 import resumePdf from '../../images/Fahad-Hossain-web-developer-Resume.pdf'
+import Achivement from '../Achivement';
 
 const Home = () => {
 
@@ -77,6 +78,7 @@ const Home = () => {
             <Services />
             <Portfolio />
             <Reviews />
+            <Achivement/>
             <GetInTouch />
             <Footer />
         </div>
