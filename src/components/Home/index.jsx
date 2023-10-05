@@ -21,7 +21,7 @@ const Home = () => {
         <div id='home' className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
             <Header />
 
-            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative sm:relative'>
+            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative sm:relative pt-20'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
                     <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] sm:h-[400px] ml-[90px] sm:ml-[70px]' />
                 </div>
@@ -51,8 +51,10 @@ const Home = () => {
 
                 {/* resume download button */}
                 <div className='sm:absolute md:top-36 sm:top-14 lg:top-44  sm:ml-20 xl:ml-[520px] xl:mt-[-200px]'>
-                    <div className='w-[200px] h-[100px] flex items-center justify-center mt-56'>
-                        <a href={resumePdf} download='Fahad-hossain-web-developer-resume' target='_blank' rel='noreferrer' className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3 cursor-pointer'><Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' /></a>
+                    <div className='w-[200px] h-[100px] flex items-center justify-center mt-60'>
+                        <a href={resumePdf} download='Fahad-hossain-web-developer-resume' target='_blank' rel='noreferrer' className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3 cursor-pointer'>
+                            <Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' />
+                        </a>
                     </div>
                     <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5'>Download Resume</span>
                 </div>
@@ -79,8 +81,8 @@ const Home = () => {
             <Services />
             <Portfolio />
             <Reviews />
-            <Exprience/>
-            <Achivement/>
+            <Exprience />
+            <Achivement />
             <GetInTouch />
             <Footer />
         </div>

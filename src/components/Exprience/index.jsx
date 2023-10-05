@@ -30,7 +30,7 @@ const Exprience = () => {
                             <h1 className='text-xl text-blue-500 font-bold'>Web Design & Development Trainer</h1>
                             <h2 className='text-lg font-semibold'>Moon It Institute - <span>Part Time</span></h2>
                             <h3 className='text-sm'>Nov 2022 - Jun 2023</h3>
-                            <h4 className='text-sm mb-4'>Feni, Chattogram - <span>Physical</span></h4>
+                            <h4 className='text-sm mb-4'>Feni, Chattogram - <span>Physical Job</span></h4>
                             <h5 className='mb-4 text-lg font-semibold'><span className='text-blue-500 text-xl'>Teach:</span> HTML, CSS, Bootstrap, Tailwind, JavaScript Fundamentals, DOM, Reactjs</h5>
                             <p className='text-justify text-sm'>I had the role of a web design and development trainer at Moon IT Institute, where I teaches students in web design and web developemnt, I Also try to give them my best.</p>
                         </div>
