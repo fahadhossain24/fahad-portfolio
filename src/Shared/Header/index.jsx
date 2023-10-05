@@ -35,6 +35,15 @@ const index = () => {
                         <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Reviews</Link>
                     </li>
 
+                    
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                        <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Achivement</Link>
+                    </li>
+
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                        <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="protfolio" spy={true} smooth={true} duration={1500} >About Me</Link>
+                    </li>
+
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
                         <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="reachMe" spy={true} smooth={true} duration={2100}>Reach Me</Link>
                     </li>

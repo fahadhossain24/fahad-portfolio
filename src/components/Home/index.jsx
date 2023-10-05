@@ -12,7 +12,7 @@ import Footer from '../../Shared/Footer';
 const Home = () => {
     return (
         <div id='home' className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
-            <Header/>
+            <Header />
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
@@ -41,6 +41,14 @@ const Home = () => {
                         <a href='https://github.com/fahadhossain24' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
                     </div>
                 </div>
+
+                <div className=''>
+                    <div className='w-[200px] h-[100px] flex items-center justify-center mt-56'>
+                        <h2 className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3'><Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' /></h2>
+                    </div>
+                    <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5'>Download Resume</span>
+                </div>
+
                 <div>
                     <div className='w-[160px] mt- text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
                         <h2 className='text-white text-3xl font-bold'>100%</h2>
@@ -59,12 +67,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Skills/>
-            <Services/>
-            <Portfolio/>
-            <Reviews/>
-            <GetInTouch/>
-            <Footer/>
+            <Skills />
+            <Services />
+            <Portfolio />
+            <Reviews />
+            <GetInTouch />
+            <Footer />
         </div>
     );
 };

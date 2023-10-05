@@ -16,3 +16,85 @@
     animation-name: example;
     animation-duration: 4s;
 }
+
+.resumeDownloadButton {
+    animation: downloadButton 1s linear forwards alternate infinite;
+}
+
+.resumeDownloadButtonIcon{
+    animation: downloadButtonIcon 1s linear forwards alternate infinite;
+}
+
+.resumeDownloadText{
+    animation: resumeDownloadText 1s linear forwards alternate infinite;
+
+}
+
+@keyframes downloadButton {
+    0% {
+        width: 85px;
+        height: 85px;
+        opacity: 1;
+    }
+
+    33% {
+        width: 89px;
+        height: 89px;
+        opacity: 0.7;
+
+
+    }
+
+    66% {
+        width: 105px;
+        height: 105px;
+        opacity: 0.5;
+    }
+
+    100% {
+        width: 115px;
+        height: 115px;
+        opacity: 0;
+    }
+    
+}
+
+@keyframes downloadButtonIcon {
+    0% {
+        width: 64px;
+        opacity: 1;
+    }
+
+    33% {
+        width: 55px;
+        opacity: 0.7;
+
+
+    }
+
+    66% {
+        width: 45px;
+        opacity: 0.5;
+    }
+
+    100% {
+        width: 35px;
+        opacity: 0;
+    }
+    
+}
+@keyframes resumeDownloadText {
+    0% {
+       color: #f59386
+    }
+
+    50% {
+        color: #ff6d5a
+    }
+
+    100% {
+        color: #f71f02
+
+    }
+    
+}

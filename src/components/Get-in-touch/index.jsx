@@ -39,14 +39,14 @@ const GetInTouch = () => {
             <div className='flex flex-wrap'>
                 <div className='lg:w-[65%] p-5 sm:w-full'>
                     <form onSubmit={handleSubmit}>
-                        <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="" placeholder='Enter Your Name' className='bg-transparent border-2 border-[#ff6d5a] px-4 py-2 rounded-lg w-full text-white' /> <br />
-                        <input type="email" name="email" id="" placeholder='Enter Your email' className='bg-transparent border-2 border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
-                        <input onChange={e => setSubject(e.target.value)} type="text" name="subject" id="" placeholder='Enter Subject' className='bg-transparent border-2 border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
-                        <textarea onChange={e => setComment(e.target.value)} name="comment" id="" cols="40" rows="5" placeholder='Your Comment' className='bg-transparent border-2 border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white'></textarea><br />
-                        <button type='submit' className='text-white border-2 border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-5 hover:bg-red-500 transition-all'>Send</button>
+                        <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="" placeholder='Enter Your Name' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full text-white' /> <br />
+                        <input type="email" name="email" id="" placeholder='Enter Your email' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
+                        <input onChange={e => setSubject(e.target.value)} type="text" name="subject" id="" placeholder='Enter Subject' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
+                        <textarea onChange={e => setComment(e.target.value)} name="comment" id="" cols="40" rows="5" placeholder='Your Comment' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white'></textarea><br />
+                        <button type='submit' className='text-white border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-5 hover:bg-red-500 transition-all'>Send</button>
                     </form>
                 </div>
-                <div className='lg:w-[30%] sm:w-full bg-blue-400 p-4 rounded-md '>
+                <div className='lg:w-[30%] sm:w-full bg-blue-300 p-4 rounded-md '>
                     <h2 className='text-2xl font-bold'>Phone</h2>
                     <span className='text-2xl font-semibold'>+8801810-324908</span>
                     <h2 className='text-2xl font-bold'>Email</h2>
