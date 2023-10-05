@@ -19,10 +19,10 @@ const Reviews = () => {
         
             <div className='w-[100%] flex flex-wrap'>
                 <div className='lg:w-[40%] md:w-[60%] sm:w-[100%]'>
-                    <div className='lg:w-[40%] md:w-[50%] lg:h-[300px] sm:w-[50%] sm:h-[300px] bg-[#ff6d5a]  relative mx-auto md:mr-16'>
+                    <div className='lg:w-[40%] md:w-[40%] lg:h-[300px] sm:w-[50%] sm:h-[300px] bg-[#ff6d5a]  relative mx-auto lg:mr-16 xl:mr-36'>
 
                     </div>
-                    <div className='lg:w-[20%] lg:h-[200px] md:w-[35%] md:h-[200px] sm:w-[60%] sm:h-[200px] bg-blue-300 absolute lg:top-[3400px] md:top-[4480px] sm:top-[5750px] lg:left-[245px] md:left-[190px] sm:left-[140px]'>
+                    <div className='lg:w-[20%] xl:w-[300px] lg:h-[200px] md:w-[30%]  md:h-[200px] sm:w-[50%] sm:h-[200px] bg-blue-300 absolute lg:top-[3590px] xl:top-[3285px] md:top-[4330px] sm:top-[5420px] lg:left-[16%] md:left-[16%] sm:left-[25%]'>
                         <div className='md:w-[60%] md:h-[80%] sm:w-[50%] sm:h-[80%] md:overflow-hidden lg:overflow-hidden sm:overflow-hidden bg-[#0a093a] rounded-full mx-auto md:mt-5 sm:mt-5 border-2 border-[#ff6d5a]'>
                             <img src={clientImg} alt="avater" className='w-full h-full rounded-full transition-transform transform hover:scale-110' />
                         </div>
