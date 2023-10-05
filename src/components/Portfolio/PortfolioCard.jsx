@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 const PortfolioCard = ({ portfolioDetails }) => {
     const { img, title, description, githubSourceCodeLink, projectLiveLink } = portfolioDetails
     return (
-        <div className='md:w-[30%] sm:w-[90%] border-[1px] border-[#ff6d5a] rounded-lg p-4 group'>
+        <div className='md:w-[90%] lg:w-[30%] sm:w-[90%] border-[1px] border-[#ff6d5a] rounded-lg p-4 group sm:mt-8 lg:mt-0'>
             <img src={img} alt="avater" className='w-[100%] h-[150px] group-hover:scale-105 transition-all duration-300' />
             <h2 className='h-[17%] text-center text-3xl font-bold p-4 bg-gradient-to-r from-blue-500 to-[#ff6d5a] text-transparent bg-clip-text group-hover:scale-110 transition-all duration-500'>{title}</h2>
             <p className='h-[200px] text-[#bbb] text-justify mb-5'>{description}</p>

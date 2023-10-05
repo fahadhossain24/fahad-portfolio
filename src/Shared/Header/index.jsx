@@ -14,7 +14,7 @@ const index = () => {
 
                 <h2 className='text-3xl font-bold'>F<span className='text-[#ff6d5a] text-4xl'>A</span>H<span className='text-[#ff6d5a] text-4xl'>A</span>D</h2>
 
-                <ul className={`md:w-[200px] md:absolute xl:static lg:static xl:w-[1024px] lg:w-[768px] md:mt-[350px] sm:mt-[350px] sm:absolute sm:right-0 xl:mt-0 lg:mt-0 text-[#bbb] xl:flex lg:flex gap-5 justify-center text-xl ${isMenuShow ? 'md:block sm:block' : ' md:hidden sm:hidden'} `}>
+                <ul className={`md:w-[200px] md:absolute xl:static lg:static xl:w-[1024px] lg:w-[768px] md:mt-[350px] sm:mt-[350px] sm:absolute sm:right-0 xl:mt-0 lg:mt-0 text-[#bbb] xl:flex lg:flex gap-2 justify-center text-xl ${isMenuShow ? 'md:block sm:block' : ' md:hidden sm:hidden'} `}>
                     <li className='p-2  hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px]  cursor-pointer'>
                         <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="home" spy={true} smooth={true}>Home</Link>
                     </li>
@@ -35,9 +35,13 @@ const index = () => {
                         <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Reviews</Link>
                     </li>
 
+                    <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                        <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="exprience" spy={true} smooth={true} duration={1800} >Exprience</Link>
+                    </li>
+
                     
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
-                        <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Achivement</Link>
+                        <Link activeClass='p-2 border-b-2 border-b-[#ff6d5a] text-[#ff6d5a] h-[50px] cursor-pointer' to="achivement" spy={true} smooth={true} duration={1800} >Achivement</Link>
                     </li>
 
                     <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>

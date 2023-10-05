@@ -48,7 +48,7 @@ const Portfolio = () => {
             <animated.div className='flex flex-wrap justify-evenly' style={cardAnimation}>
             {
                 cardsInfo.map((cardInfo, index) => <PortfolioCard key={index} portfolioDetails={cardInfo}/>)
-            }
+            } 
             </animated.div>
         </div>
     );
