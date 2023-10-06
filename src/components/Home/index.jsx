@@ -25,16 +25,16 @@ const Home = () => {
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative pt-20'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
-                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] ml-[90px] sm:ml-[70px]' />
+                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] ml-[90px] sm:ml-[50px]' />
                 </div>
                 <div>
-                    <h1 className='text-[#afadd3] md:text-7xl sm:text-4xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
-                    <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <Link to='reachMe'  spy={true} smooth={true} duration={1200} className='text-[#ff6d5a] cursor-pointer'>Let's Talk</Link></p>
+                    <h1 className='text-[#afadd3] md:text-7xl sm:text-4xl text-center md:mt-[-130px] sm:mt-[-90px] font-bold'>Fahad Hossain</h1>
+                    <p className='text-[#aaa] text-center text-2xl font-semibold sm:px-2 md:px-0'>Do you have a project? <Link to='reachMe'  spy={true} smooth={true} duration={1200} className='text-[#ff6d5a] cursor-pointer'>Let's Talk</Link></p>
                 </div>
             </div>
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto flex xl:justify-between lg:justify-evenly md:justify-around sm:justify-center sm:gap-2 xl:absolute top-[190px] right-0 left-0'>
-                <div>
+                <div className='sm:pl-3 md:pl-0'>
                     <div className='bg-gradient-to-r from-[#09091b] to-[#0c0961] w-[230px] hover:w-[250px]  transition-all p-2 rounded-tr-full rounded-br-full'>
                         <h2 className='text-[#ff6d5a] font-medium text-lg'>Web Developer (MERN)</h2>
                         <p className='text-[#aaa] text-md'>Based in Bangladesh</p>
@@ -61,20 +61,20 @@ const Home = () => {
                     <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5 sm:hidden md:block'>Download Resume</span>
                 </div>
 
-                <div>
-                    <div className='w-[160px] mt- text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
+                <div className='sm:mr-3 md:pr-0'>
+                    <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
                         <h2 className='text-white text-3xl font-bold'>100%</h2>
-                        <p className='text-[#aaa] text-medium text-xl'>Client Satisfaction</p>
+                        <p className='text-[#aaa] text-medium md:text-xl'>Client Satisfaction</p>
                         <br />
                     </div>
-                    <div className='w-[160px] mt- text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
+                    <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
                         <h2 className='text-white text-3xl font-bold'>12+</h2>
-                        <p className='text-[#aaa] text-medium text-xl'>Project Done</p>
+                        <p className='text-[#aaa] text-medium md:text-xl'>Project Done</p>
                         <br />
                     </div>
-                    <div className='w-[160px] mt- text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
+                    <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
                         <h2 className='text-white text-3xl font-bold'>2+</h2>
-                        <p className='text-[#aaa] text-medium text-xl'>Experience</p>
+                        <p className='text-[#aaa] text-medium md:text-xl'>Experience</p>
                         <br />
                     </div>
                 </div>

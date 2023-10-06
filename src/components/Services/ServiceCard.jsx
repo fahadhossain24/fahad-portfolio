@@ -13,7 +13,7 @@ const ServiceCard = () => {
     });
 
     return (
-        <div className='flex flex-wrap justify-center gap-4'>
+        <div ref={ref} className='flex flex-wrap justify-center gap-4'>
             <animated.div ref={ref} className='lg:w-[45%] p-4 cursor-pointer group' style={cardAnimation}>
                 <span className='lg:w-[20%] sm:w-fit text-[#ff6d5a] text-9xl block mx-auto'>
                     <Icon icon='material-symbols:linked-services' />
@@ -28,7 +28,7 @@ const ServiceCard = () => {
                 </p>
             </animated.div>
 
-            <animated.div ref={ref} className='lg:w-[45%] group p-4 cursor-pointer ' style={cardAnimation}>
+            <animated.div className='lg:w-[45%] group p-4 cursor-pointer ' style={cardAnimation}>
                 <span className='lg:w-[20%] sm:w-fit text-[#ff6d5a] text-9xl block mx-auto'>
                 <Icon icon="streamline:interface-upload-website-action-actions-computer-website-device-display-upload-monitor-screen" />
                 </span>
