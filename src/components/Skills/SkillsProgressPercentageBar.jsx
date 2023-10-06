@@ -40,6 +40,8 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
                 setIsAnimated(false)
             }
         })
+    },{
+        threshold: 0.1
     })
 
     observer.observe(circleProgressElement);

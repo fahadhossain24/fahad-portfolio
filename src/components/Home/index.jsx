@@ -58,7 +58,7 @@ const Home = () => {
                             <Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' />
                         </a>
                     </div>
-                    <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5 sm:hidden md:block'>Download Resume</span>
+                    <span className='resumeDownloadText text-[#ff6d5a] block md:mr-32 text-xl font-semibold mt-2 md:ml-5 sm:ml-8'>Download Resume</span>
                 </div>
 
                 <div className='sm:mr-3 md:pr-0'>
@@ -82,8 +82,8 @@ const Home = () => {
             <Skills />
             <Services />
             <Portfolio />
-            <Reviews />
             <Exprience />
+            <Reviews />
             <Achivement />
             {/* <About/> */}
             <GetInTouch />
