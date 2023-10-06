@@ -10,44 +10,49 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
     const [isAnimated, setIsAnimated] = useState(false);
     const [percentage, setPercentage] = useState(0);
 
-    useEffect(() => {
-        if (isAnimated) {
-            const interval = setInterval(() => {
-                if (percentage < value) {
-                    // Increase the percentage value over time (e.g., by 1% every 5ms)
-                    setPercentage(percentage + 1);
-                }
-            }, 2);
-            return () => {
-                clearInterval(interval);
-            }
-        }else{
-            setPercentage(0)
-        }
-    }, [isAnimated, percentage])
 
-    
+
+        useEffect(() => {
+            if (isAnimated) {
+                const interval = setInterval(() => {
+                    if (percentage < value) {
+                        // Increase the percentage value over time (e.g., by 1% every 5ms)
+                        setPercentage(percentage + 1);
+                    }
+                }, 2);
+                return () => {
+                    clearInterval(interval);
+                }
+            } else {
+                setPercentage(0)
+            }
+        }, [isAnimated, percentage])
+
+
     window.addEventListener('load', () => {
         const circleProgressElement = document.querySelector('#circleProgress');
 
         const observer = new IntersectionObserver((items) => {
-        items.forEach(item => {
-            if(item.isIntersecting){
-                // console.log('visibal');
-                setIsAnimated(true)
-            }else{
-                // console.log('invisible');
-                setIsAnimated(false)
-            }
+            items.forEach(item => {
+                if (item.isIntersecting) {
+                    // console.log('visibal');
+                    setIsAnimated(true)
+                } else {
+                    // console.log('invisible');
+                    setIsAnimated(false)
+                }
+            })
+        }, {
+            threshold: 0.1
         })
-    },{
-        threshold: 0.1
+
+        observer.observe(circleProgressElement);
     })
 
-    observer.observe(circleProgressElement);
-    })
 
-    
+
+
+
     return (
         <div id='circleProgress' className='lg:w-[15%] sm:w-[20%]' style={{
             backgroundImage: `url(${url})`,
@@ -56,8 +61,8 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
             backgroundPosition: backgroundPositon,
         }}>
             <CircularProgressbar
-                value={percentage}
-                text={`${percentage}%`}
+                value={percentage ? percentage: 90}
+                text={`${percentage? percentage: 90}%`}
                 styles={buildStyles({
                     pathTransitionDuration: 0.5, // Adjust the animation duration
                     pathColor: `#87433B`,
