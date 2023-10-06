@@ -61,8 +61,8 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
             backgroundPosition: backgroundPositon,
         }}>
             <CircularProgressbar
-                value={percentage ? percentage: 90}
-                text={`${percentage? percentage: 90}%`}
+                value={percentage ? percentage: value}
+                text={`${percentage? percentage: value}%`}
                 styles={buildStyles({
                     pathTransitionDuration: 0.5, // Adjust the animation duration
                     pathColor: `#87433B`,
