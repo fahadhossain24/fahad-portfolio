@@ -13,7 +13,7 @@ const index = () => {
             <div className='xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] mx-auto  h-[70px] fixed z-10 bg-[#050266]'>
 
                 <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[90%] flex mt-3 text-white xl:justify-between lg:justify-around md:justify-between sm:justify-between items-center mx-auto'>
-                    <h2 className='text-3xl font-bold'>F<span className='text-[#ff6d5a] text-4xl'>A</span>H<span className='text-[#ff6d5a] text-4xl'>A</span>D</h2>
+                    <h2 className='text-3xl font-bold text-[#bbb]'>FAHAD</h2>
 
                     <ul className={`md:w-[200px] md:absolute xl:static lg:static xl:w-[1024px] lg:w-[768px] md:mt-[480px] sm:mt-[480px] sm:absolute sm:right-0 xl:mt-0 lg:mt-0 text-[#bbb] xl:flex lg:flex gap-2 justify-center text-xl ${isMenuShow ? 'md:block sm:block' : ' md:hidden sm:hidden'} `}>
 

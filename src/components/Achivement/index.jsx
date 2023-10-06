@@ -42,7 +42,7 @@ const Achivement = () => {
             <Slider {...settings}>
                 {
                     certificates.map((certificate, index) => (
-                        <div key={index} className={`w-[150px] ml-14 ${deviceWidth < 767 ? 'ml-1': (deviceWidth > 767) && (deviceWidth < 1020) ? 'ml-8': ''}`}>
+                        <div key={index} className={`w-[150px] ml-14 ${deviceWidth < 767 ? 'ml-0': (deviceWidth > 767) && (deviceWidth < 1020) ? 'ml-8': ''}`}>
                             <div key={index} className='bg-[#222068] lg:w-[320px] md:w-[300px] sm:w-[90%} lg:h-[280px] md:h-[260px] rounded-lg p-2 cursor-pointer'>
                                 <PhotoProvider>
                                     <PhotoView src={certificate}>
