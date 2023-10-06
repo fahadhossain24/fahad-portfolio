@@ -42,7 +42,7 @@ const GetInTouch = () => {
                         <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="" placeholder='Enter Your Name' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full text-white' /> <br />
                         <input type="email" name="email" id="" placeholder='Enter Your email' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
                         <input onChange={e => setSubject(e.target.value)} type="text" name="subject" id="" placeholder='Enter Subject' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white' /> <br />
-                        <textarea onChange={e => setComment(e.target.value)} name="comment" id="" cols="40" rows="5" placeholder='Your Comment' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white'></textarea><br />
+                        <textarea onChange={e => setComment(e.target.value)} name="comment" id="" cols="40" rows="5" placeholder='Write your needs' className='bg-transparent border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-3 text-white'></textarea><br />
                         <button type='submit' className='text-white border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-5 hover:bg-red-500 transition-all'>Send</button>
                     </form>
                 </div>

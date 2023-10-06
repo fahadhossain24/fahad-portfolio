@@ -10,7 +10,7 @@ import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Achivement = () => {
-    const certificates = [ictob, knowAboutIctob, ictob, linkedin, ictob,];
+    const certificates = [ictob, knowAboutIctob, ictob, linkedin,];
 
     let slideToShow;
     const deviceWidth = window.innerWidth;

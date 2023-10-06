@@ -55,7 +55,7 @@ const index = () => {
                         </li>
                     </ul>
 
-                    <a href='https://www.facebook.com/1fahadhossain' className='bg-[#ff6d5a] py-2 px-6 text-lg font-medium rounded-xl md:hidden sm:hidden xl:block lg:block'>Hire Me</a>
+                    <Link to='reachMe' spy={true} smooth={true} duration={1200} className='bg-[#ff6d5a] py-2 px-6 text-lg font-medium rounded-xl md:hidden sm:hidden xl:block lg:block cursor-pointer'>Hire Me</Link>
                     <p onClick={() => setIsMenuShow(!isMenuShow)} className='text-[#ff6d5a] py-2 px-2 text-5xl cursor-pointer md:block xl:hidden lg:hidden'><Icon icon="uil:bars" /></p>
                 </div>
             </div>

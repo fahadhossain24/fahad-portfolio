@@ -11,6 +11,7 @@ import Footer from '../../Shared/Footer';
 import resumePdf from '../../images/Fahad-Hossain-web-developer-Resume.pdf'
 import Achivement from '../Achivement';
 import Exprience from '../Exprience';
+import { Link } from 'react-scroll';
 
 const Home = () => {
 
@@ -27,7 +28,7 @@ const Home = () => {
                 </div>
                 <div>
                     <h1 className='text-[#afadd3] text-7xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
-                    <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <a href='https://www.facebook.com/1fahadhossain' className='text-[#ff6d5a]'>Let's Talk</a></p>
+                    <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <Link to='reachMe'  spy={true} smooth={true} duration={1200} className='text-[#ff6d5a] cursor-pointer'>Let's Talk</Link></p>
                 </div>
             </div>
 

@@ -12,7 +12,7 @@ const Portfolio = () => {
     const cardAnimation = useSpring({
         opacity: inView ? 1 : 0,
         transform: inView ? 'translateY(1)' : 'translateY(80px)',
-        config: { duration: 700 },
+        config: { duration: 900 },
     });
 
     const cardsInfo = [
