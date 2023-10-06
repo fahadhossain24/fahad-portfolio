@@ -12,6 +12,7 @@ import resumePdf from '../../images/Fahad-Hossain-web-developer-Resume.pdf'
 import Achivement from '../Achivement';
 import Exprience from '../Exprience';
 import { Link } from 'react-scroll';
+import About from '../About';
 
 const Home = () => {
 
@@ -22,17 +23,17 @@ const Home = () => {
         <div id='home' className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
             <Header />
 
-            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[500px] mx-auto xl:relative sm:relative pt-20'>
+            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative pt-20'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
-                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] sm:h-[400px] ml-[90px] sm:ml-[70px]' />
+                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] ml-[90px] sm:ml-[70px]' />
                 </div>
                 <div>
-                    <h1 className='text-[#afadd3] text-7xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
+                    <h1 className='text-[#afadd3] md:text-7xl sm:text-4xl text-center mt-[-130px] font-bold'>Fahad Hossain</h1>
                     <p className='text-[#aaa] text-center text-2xl font-semibold'>Do you have a project? <Link to='reachMe'  spy={true} smooth={true} duration={1200} className='text-[#ff6d5a] cursor-pointer'>Let's Talk</Link></p>
                 </div>
             </div>
 
-            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto flex xl:justify-between lg:justify-evenly md:justify-around sm:justify-center sm:gap-2 xl:absolute top-[190px] right-0 left-0'>
+            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto flex xl:justify-between lg:justify-evenly md:justify-around sm:justify-center sm:gap-2 xl:absolute top-[190px] right-0 left-0'>
                 <div>
                     <div className='bg-gradient-to-r from-[#09091b] to-[#0c0961] w-[230px] hover:w-[250px]  transition-all p-2 rounded-tr-full rounded-br-full'>
                         <h2 className='text-[#ff6d5a] font-medium text-lg'>Web Developer (MERN)</h2>
@@ -51,13 +52,13 @@ const Home = () => {
                 </div>
 
                 {/* resume download button */}
-                <div className='sm:absolute md:top-36 sm:top-14 lg:top-44  sm:ml-20 xl:ml-[520px] xl:mt-[-200px]'>
-                    <div className='w-[200px] h-[100px] flex items-center justify-center mt-60'>
+                <div className='sm:absolute md:top-36 sm:top-20 lg:top-44 xl:ml-[520px] xl:mt-[-200px]'>
+                    <div className='w-[200px] h-[100px] flex items-center justify-center md:mt-60 sm:mt-52 sm:ml-4 md:ml-0'>
                         <a href={resumePdf} download='Fahad-hossain-web-developer-resume' target='_blank' rel='noreferrer' className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3 cursor-pointer'>
                             <Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' />
                         </a>
                     </div>
-                    <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5'>Download Resume</span>
+                    <span className='resumeDownloadText text-[#ff6d5a] block mr-32 text-xl font-semibold mt-2 ml-5 sm:hidden md:block'>Download Resume</span>
                 </div>
 
                 <div>
@@ -84,6 +85,7 @@ const Home = () => {
             <Reviews />
             <Exprience />
             <Achivement />
+            {/* <About/> */}
             <GetInTouch />
             <Footer />
         </div>

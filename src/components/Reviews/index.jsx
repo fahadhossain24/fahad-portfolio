@@ -14,7 +14,7 @@ const Reviews = () => {
         config: { duration: 800 },
     });
     return (
-        <div id='reviews' ref={ref} className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto'>
+        <div id='reviews' ref={ref} className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[12%] lg:w-[15%] md:w-[25%] sm:w-[35%] mx-auto mt-20 mb-24'>
                 <h2 className='font-bold text-center text-3xl border-b-4 border-b-[#ff6d5a] pb-2 bg-gradient-to-b from-white to-[#ff6d5a] text-transparent bg-clip-text'>Reviews</h2>
             </div>
@@ -61,7 +61,7 @@ const Reviews = () => {
                             <Icon icon="ic:sharp-star" className='text-[#bbb]'/>
                         </p>
                     </h2>
-                    <p className='text-lg text-justify text-blue-200 opacity-70'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a member of the governing body, I have the utmost respect and admiration for Fahad's contributions to our organization ICT Olympiad Bangladesh. I believe that Her leadership and expertise have left a lasting and positive impression on the ICT Olympiad Bangladesh, and I have no doubt that they will continue to excel in any endeavor they pursue.<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
+                    <p className='text-lg text-justify text-blue-200 opacity-70'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a member of the governing body, I have the utmost respect and admiration for Fahad's contributions to our organization ICT Olympiad Bangladesh. I believe that Her leadership and expertise have left a lasting and positive impression on the ICT Olympiad Bangladesh, and I have no doubt that they will continue to excel in any endeavor they pursue. Have a protential future in the ICT sector<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
                 </animated.div>
             </div>
         </div>

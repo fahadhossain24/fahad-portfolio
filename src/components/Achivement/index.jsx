@@ -35,7 +35,7 @@ const Achivement = () => {
     };
 
     return (
-        <div id='achivement' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto'>
+        <div id='achivement' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[16%] lg:w-[18%] md:w-[28%] sm:w-[38%] mx-auto mt-20 mb-24'>
                 <h2 className='font-bold text-center text-3xl border-b-4 border-b-[#ff6d5a] pb-2 bg-gradient-to-b from-white to-[#ff6d5a] text-transparent bg-clip-text'>Achivements</h2>
             </div>

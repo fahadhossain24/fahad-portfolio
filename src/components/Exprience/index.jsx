@@ -14,12 +14,12 @@ const Exprience = () => {
     });
 
     return (
-        <div id='exprience'  ref={ref} className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto'>
+        <div id='exprience'  ref={ref} className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[16%] lg:w-[18%] md:w-[28%] sm:w-[38%] mx-auto mt-20 mb-24'>
                 <h2 className='font-bold text-center text-3xl border-b-4 border-b-[#ff6d5a] pb-2 bg-gradient-to-b from-white to-[#ff6d5a] text-transparent bg-clip-text'>Exprience</h2>
             </div>
             <animated.div style={cardAnimation} className='flex flex-wrap gap-2 justify-around'>
-                <div className='lg:w-[30%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3'>
+                <div className='lg:w-[30%] sm:w-[90%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3'>
                     <div>
                         <img src={universe} alt="" className='w-[100px] h-[100px] bg-[#979bdf] rounded-full mt-[-60px] mb-4' />
                         <div>
@@ -32,7 +32,7 @@ const Exprience = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-[30%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3 sm:mt-16 lg:mt-0'>
+                <div className='lg:w-[30%] sm:w-[90%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3 sm:mt-16 lg:mt-0'>
                     <div>
                         <img src={moonit} alt="" className='w-[100px] h-[100px] bg-[#979bdf] rounded-full mt-[-60px] mb-4' />
                         <div>
@@ -45,7 +45,7 @@ const Exprience = () => {
                         </div>
                     </div>
                 </div>
-                <div className='lg:w-[30%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3 sm:mt-16 lg:mt-0'>
+                <div className='lg:w-[30%] sm:w-[90%] text-[#bbb] border-2 border-blue-500 hover:border-[#ff6d5a] transition-all p-3 sm:mt-16 lg:mt-0'>
                     <div>
                         <img src={ictob} alt="" className='w-[100px] h-[100px] bg-[#979bdf] rounded-full mt-[-60px] mb-4' />
                         <div>

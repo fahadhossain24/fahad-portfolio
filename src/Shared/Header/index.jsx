@@ -12,7 +12,7 @@ const index = () => {
         <div>
             <div className='xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] mx-auto  h-[70px] fixed z-10 bg-[#050266]'>
 
-                <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[550px] flex mt-3 text-white xl:justify-between lg:justify-around md:justify-between sm:justify-between items-center mx-auto'>
+                <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] flex mt-3 text-white xl:justify-between lg:justify-around md:justify-between sm:justify-between items-center mx-auto'>
                     <h2 className='text-3xl font-bold'>F<span className='text-[#ff6d5a] text-4xl'>A</span>H<span className='text-[#ff6d5a] text-4xl'>A</span>D</h2>
 
                     <ul className={`md:w-[200px] md:absolute xl:static lg:static xl:w-[1024px] lg:w-[768px] md:mt-[480px] sm:mt-[480px] sm:absolute sm:right-0 xl:mt-0 lg:mt-0 text-[#bbb] xl:flex lg:flex gap-2 justify-center text-xl ${isMenuShow ? 'md:block sm:block' : ' md:hidden sm:hidden'} `}>
@@ -46,9 +46,9 @@ const index = () => {
                             <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="achivement" spy={true} smooth={true} duration={1800} >Achivement</Link>
                         </li>
 
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
-                            <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="protfolio" spy={true} smooth={true} duration={1500} >About Me</Link>
-                        </li>
+                        {/* <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                            <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="about" spy={true} smooth={true} duration={1500} >About Me</Link>
+                        </li> */}
 
                         <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
                             <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="reachMe" spy={true} smooth={true} duration={2100}>Reach Me</Link>

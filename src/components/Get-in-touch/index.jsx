@@ -32,7 +32,7 @@ const GetInTouch = () => {
     }
 
     return (
-        <div id='reachMe' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[500px] mx-auto'>
+        <div id='reachMe' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[12%] lg:w-[15%] md:w-[25%] sm:w-[35%] mx-auto mt-20 mb-11'>
                 <h2 className='font-bold text-center text-3xl border-b-4 border-b-[#ff6d5a] pb-2 bg-gradient-to-b from-white to-[#ff6d5a] text-transparent bg-clip-text'>Reach Me</h2>
             </div>
@@ -46,7 +46,7 @@ const GetInTouch = () => {
                         <button type='submit' className='text-white border-[1px] border-[#ff6d5a] px-4 py-2 rounded-lg w-full mt-5 hover:bg-red-500 transition-all'>Send</button>
                     </form>
                 </div>
-                <div className='lg:w-[30%] sm:w-full bg-blue-300 p-4 rounded-md '>
+                <div className='lg:w-[30%] sm:w-full bg-blue-500 p-4 rounded-md '>
                     <h2 className='text-2xl font-bold'>Phone</h2>
                     <span className='text-2xl font-semibold'>+8801810-324908</span>
                     <h2 className='text-2xl font-bold'>Email</h2>
