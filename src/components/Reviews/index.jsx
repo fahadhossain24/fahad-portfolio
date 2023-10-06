@@ -38,7 +38,7 @@ const Reviews = () => {
                             <Icon icon="ic:sharp-star" />
                         </p>
                     </h2>
-                    <p className='text-lg text-justify text-blue-200 opacity-70'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a mentor, Fahad exhibited outstanding teaching skills and a genuine passion for helping students develop their skills. He had a unique ability to explain complex concepts in a simple and understandable manner, making learning an enjoyable experience for our students. He was not only a knowledgeable and skilled mentor but also a fantastic communicator. He fostered a collaborative and supportive learning environment where students felt comfortable asking questions and seeking guidance<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
+                    <p className='md:text-lg text-justify text-blue-200 opacity-70 sm:text-sm'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a mentor, Fahad exhibited outstanding teaching skills and a genuine passion for helping students develop their skills. He had a unique ability to explain complex concepts in a simple and understandable manner, making learning an enjoyable experience for our students. He was not only a knowledgeable and skilled mentor but also a fantastic communicator. He fostered a collaborative and supportive learning environment where students felt comfortable asking questions and seeking guidance<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
                 </animated.div>
             </div>
 
@@ -61,7 +61,7 @@ const Reviews = () => {
                             <Icon icon="ic:sharp-star" className='text-[#bbb]'/>
                         </p>
                     </h2>
-                    <p className='text-lg text-justify text-blue-200 opacity-70'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a member of the governing body, I have the utmost respect and admiration for Fahad's contributions to our organization ICT Olympiad Bangladesh. I believe that Her leadership and expertise have left a lasting and positive impression on the ICT Olympiad Bangladesh, and I have no doubt that they will continue to excel in any endeavor they pursue. Have a protential future in the ICT sector<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
+                    <p className='md:text-lg sm:text-sm text-justify text-blue-200 opacity-70'>&nbsp;&nbsp;&nbsp;&nbsp;<Icon icon="icomoon-free:quotes-left" className='inline-block text-xl text-[#ff6d5a] mt-[-12px]' /> As a member of the governing body, I have the utmost respect and admiration for Fahad's contributions to our organization ICT Olympiad Bangladesh. I believe that Her leadership and expertise have left a lasting and positive impression on the ICT Olympiad Bangladesh, and I have no doubt that they will continue to excel in any endeavor they pursue. Have a protential future in the ICT sector<Icon icon="icomoon-free:quotes-right" className='inline-block text-xl text-[#ff6d5a] mb-4' /></p>
                 </animated.div>
             </div>
         </div>
