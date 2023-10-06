@@ -23,7 +23,7 @@ const Home = () => {
         <div id='home' className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
             <Header />
 
-            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative pt-20'>
+            <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative md:pt-20 sm:pt-36'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
                     <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] ml-[90px] sm:ml-[50px]' />
                 </div>
