@@ -64,7 +64,7 @@ const Home = () => {
                 <div className='sm:mr-3 md:pr-0'>
                     <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
                         <h2 className='text-white text-3xl font-bold'>100%</h2>
-                        <p className='text-[#aaa] text-medium md:text-xl'>Client Satisfaction</p>
+                        <p className='text-[#aaa] text-medium md:text-xl'>Project Dedication</p>
                         <br />
                     </div>
                     <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
@@ -73,7 +73,7 @@ const Home = () => {
                         <br />
                     </div>
                     <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
-                        <h2 className='text-white text-3xl font-bold'>2+</h2>
+                        <h2 className='text-white text-3xl font-bold'>1+</h2>
                         <p className='text-[#aaa] text-medium md:text-xl'>Experience</p>
                         <br />
                     </div>

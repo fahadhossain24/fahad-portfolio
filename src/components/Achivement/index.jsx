@@ -5,12 +5,14 @@ import "slick-carousel/slick/slick-theme.css";
 import ictob from '../../images/certificates/ictob.png';
 import knowAboutIctob from '../../images/certificates/know-about-ictob.png';
 import linkedin from '../../images/certificates/linkedin.png';
+import skillsCompetition from '../../images/certificates/skills-competition.jpg';
+import programmingContest from '../../images/certificates/programming-contest.jpg';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Achivement = () => {
-    const certificates = [ictob, knowAboutIctob, ictob, linkedin,];
+    const certificates = [ictob, knowAboutIctob, programmingContest, linkedin, skillsCompetition];
 
     let slideToShow;
     const deviceWidth = window.innerWidth;
