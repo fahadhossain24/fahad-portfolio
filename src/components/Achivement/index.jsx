@@ -7,12 +7,13 @@ import knowAboutIctob from '../../images/certificates/know-about-ictob.png';
 import linkedin from '../../images/certificates/linkedin.png';
 import skillsCompetition from '../../images/certificates/skills-competition.jpg';
 import programmingContest from '../../images/certificates/programming-contest.jpg';
+import internshipCertificate from '../../images/certificates/Fahad-Hossain-MERN-Internship-certificate.jpg';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Achivement = () => {
-    const certificates = [ictob, knowAboutIctob, programmingContest, linkedin, skillsCompetition];
+    const certificates = [ictob, knowAboutIctob, programmingContest, linkedin, skillsCompetition, internshipCertificate];
 
     let slideToShow;
     const deviceWidth = window.innerWidth;

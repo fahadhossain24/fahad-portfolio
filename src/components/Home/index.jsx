@@ -25,7 +25,7 @@ const Home = () => {
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative md:pt-20 sm:pt-36'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
-                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] ml-[90px] sm:ml-[50px]' />
+                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] md:ml-[90px] sm:ml-[50px]' />
                 </div>
                 <div>
                     <h1 className='text-[#afadd3] md:text-7xl sm:text-4xl text-center md:mt-[-130px] sm:mt-[-90px] font-bold'>Fahad Hossain</h1>
@@ -73,7 +73,7 @@ const Home = () => {
                         <br />
                     </div>
                     <div className='md:w-[160px] text-right border-b-[1px] border-b-[#342d5c] hover:border-b-[#ff6d5a] hover:scale-x-110 transition-all'>
-                        <h2 className='text-white text-3xl font-bold'>1+</h2>
+                        <h2 className='text-white text-3xl font-bold'>2+</h2>
                         <p className='text-[#aaa] text-medium md:text-xl'>Experience</p>
                         <br />
                     </div>
