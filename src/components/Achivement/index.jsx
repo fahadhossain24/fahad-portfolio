@@ -36,7 +36,6 @@ const Achivement = () => {
         arrows: false,
         Infinity: true
     };
-
     return (
         <div id='achivement' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[16%] lg:w-[18%] md:w-[28%] sm:w-[60%] mx-auto mt-20 mb-24'>
