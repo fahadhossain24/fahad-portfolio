@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+    
     return (
         <div id='about' className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto'>
             <div className='xl:w-[12%] lg:w-[15%] md:w-[25%] sm:w-[35%] mx-auto mt-20 mb-24'>
