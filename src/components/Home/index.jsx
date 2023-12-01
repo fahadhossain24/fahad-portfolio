@@ -19,6 +19,7 @@ const Home = () => {
     const handleDownloadResume = () => {
         console.log('clicke')
     }
+    
     return (
         <div id='home' className='bg-[#09072d] bg-gradient-to-br from-[#0c0b25] via-[#0c0b25] to-[#050266]'>
             <Header />
