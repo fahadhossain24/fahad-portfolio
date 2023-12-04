@@ -6,8 +6,6 @@ import { Link } from 'react-scroll';
 const index = () => {
     const [isMenuShow, setIsMenuShow] = useState(false);
     const [activeNav, setActiveNav] = useState('');
-
-
     return (
         <div>
             <div className='xl:w-[100%] lg:w-[100%] md:w-[100%] sm:w-[100%] mx-auto  h-[70px] fixed z-10 bg-[#050266]'>
