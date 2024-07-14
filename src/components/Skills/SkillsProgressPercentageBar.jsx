@@ -54,7 +54,7 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
 
 
     return (
-        <div id='circleProgress' className='lg:w-[15%] sm:w-[20%]' style={{
+        <div id='circleProgress' className='lg:w-[80%] sm:w-[80%] mx-auto' style={{
             backgroundImage: `url(${url})`,
             backgroundSize: size,
             backgroundRepeat: 'no-repeat',
@@ -64,7 +64,7 @@ const SkillsProgressPercentageBar = ({ value, backgroundImage, textColor }) => {
                 value={percentage ? percentage: value}
                 text={`${percentage? percentage: value}%`}
                 styles={buildStyles({
-                    pathTransitionDuration: 0.5, // Adjust the animation duration
+                    pathTransitionDuration: 0.5, 
                     pathColor: `#87433B`,
                     textColor: 'yellow',
                     trailColor: '#d6d6d6',

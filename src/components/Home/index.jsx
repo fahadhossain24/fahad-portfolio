@@ -8,7 +8,7 @@ import Portfolio from '../Portfolio';
 import Reviews from '../Reviews';
 import GetInTouch from '../Get-in-touch';
 import Footer from '../../Shared/Footer';
-import resumePdf from '../../images/Fahad-Hossain-web-developer-Resume.pdf'
+import resumePdf from '../../images/Fahad Hossain-Nodejs-Developer-Resume-(hardcopy).pdf'
 import Achivement from '../Achivement';
 import Exprience from '../Exprience';
 import { Link } from 'react-scroll';
@@ -26,7 +26,7 @@ const Home = () => {
 
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] h-[650px] sm:w-[100%] mx-auto xl:relative sm:relative md:pt-20 sm:pt-36'>
                 <div className='xl:w-[50%] lg:w-[65%] md:w-[75%] sm:w-[95%] mx-auto p-8 my-radial-gradient rounded-full'>
-                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] md:ml-[90px] sm:ml-[50px]' />
+                    <img src={fahadImg} alt="" className='w-[70%] lg:h-[550px] md:h-[500px] md:ml-[90px] sm:ml-[50px]'/>
                 </div>
                 <div>
                     <h1 className='text-[#afadd3] md:text-7xl sm:text-4xl text-center md:mt-[-130px] sm:mt-[-90px] font-bold'>Fahad Hossain</h1>
@@ -37,7 +37,7 @@ const Home = () => {
             <div className='xl:w-[1280px] lg:w-[1024px] md:w-[768px] sm:w-[100%] mx-auto flex xl:justify-between lg:justify-evenly md:justify-around sm:justify-center sm:gap-2 xl:absolute top-[190px] right-0 left-0'>
                 <div className='sm:pl-3 md:pl-0'>
                     <div className='bg-gradient-to-r from-[#09091b] to-[#0c0961] w-[230px] hover:w-[250px]  transition-all p-2 rounded-tr-full rounded-br-full'>
-                        <h2 className='text-[#ff6d5a] font-medium text-lg'>Web Developer (MERN)</h2>
+                        <h2 className='text-[#ff6d5a] font-medium text-lg'>Software Engineer</h2>
                         <p className='text-[#aaa] text-md'>Based in Bangladesh</p>
                     </div>
                     <div className='bg-gradient-to-r from-[#09091b] to-[#0c0961] w-[230px] hover:w-[250px] transition-all p-2 rounded-tr-full rounded-br-full mt-11'>
@@ -45,17 +45,17 @@ const Home = () => {
                         <p className='text-[#e2e1e1] text-md font-normal'>fahadhossaim24@gmail.com</p>
                     </div>
                     <div className='flex gap-4 w-[250px] text-3xl mt-11 text-[#47449e] '>
-                        <a href='https://www.facebook.com/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
-                        <a href='https://www.linkedin.com/in/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
-                        <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:twitter" /></a>
-                        <a href='https://github.com/fahadhossain24' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
+                        <a href='https://www.facebook.com/1fahadhossain' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
+                        <a href='https://www.linkedin.com/in/1fahadhossain' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
+                        <a href='https://gitlab.com/fahadhossain05' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="ph:gitlab-logo-simple" /></a>
+                        <a href='https://github.com/fahadhossain24' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
                     </div>
                 </div>
 
                 {/* resume download button */}
                 <div className='sm:absolute md:top-36 sm:top-20 lg:top-44 xl:ml-[520px] xl:mt-[-200px]'>
                     <div className='w-[200px] h-[100px] flex items-center justify-center md:mt-60 sm:mt-52 sm:ml-4 md:ml-0'>
-                        <a href={resumePdf} download='Fahad-hossain-web-developer-resume' target='_blank' rel='noreferrer' className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3 cursor-pointer'>
+                        <a href={resumePdf} download='Fahad-hossain-Software-Developer-resume' target='_blank' rel='noreferrer' className='resumeDownloadButton w-[85px] h-[85px] flex items-center justify-center text-6xl text-[#ff6d5a] border-2 border-[#ff6d5a] rounded-full p-3 cursor-pointer'>
                             <Icon icon="ic:baseline-download" className='resumeDownloadButtonIcon flex items-center justify-normal w-8' />
                         </a>
                     </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 </div>
             </div>
             <Skills />
-            <Services />
+            {/* <Services /> */}
             <Portfolio />
             <Exprience />
             <Reviews />

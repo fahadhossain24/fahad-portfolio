@@ -52,12 +52,12 @@ const GetInTouch = () => {
                     <h2 className='text-2xl font-bold'>Email</h2>
                     <span className='text-xl font-semibold'>fahadhossaim24@gmail.com</span>
                     <h2 className='text-2xl font-bold'>My Location</h2>
-                    <span className='text-lg font-semibold'>East Hajipara, Rampura, Dhaka</span>
+                    <span className='text-lg font-semibold'>North Kafrul, Mirpur 14, Dhaka</span>
                     <div className='flex gap-4 justify-center text-4xl mt-16 text-[#2d2a8a] '>
-                        <a href='https://www.facebook.com/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
-                        <a href='https://www.linkedin.com/in/1fahadhossain' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
-                        <a href='#' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:twitter" /></a>
-                        <a href='https://github.com/fahadhossain24' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
+                        <a href='https://www.facebook.com/1fahadhossain' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:facebook" /></a>
+                        <a href='https://www.linkedin.com/in/1fahadhossain' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:linkedin" /></a>
+                        <a href='https://www.gitlab.com/fahadhossain05'  target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="ph:gitlab-logo-simple" /></a>
+                        <a href='https://github.com/fahadhossain24' target='_blank' className='hover:text-[#ff6d5a] hover:text-4xl transition-all w-[15%]'><Icon icon="line-md:github-loop" /></a>
                     </div>
                     {/* <img src={mapImg} alt='map-view' className='mx-auto pt-2 w-full sm:w-[90%]' /> */}
                 </div>

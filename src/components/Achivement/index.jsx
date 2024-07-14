@@ -6,6 +6,9 @@ import ictob from '../../images/certificates/ictob.png';
 import knowAboutIctob from '../../images/certificates/know-about-ictob.png';
 import linkedin from '../../images/certificates/linkedin.png';
 import skillsCompetition from '../../images/certificates/skills-competition.jpg';
+import mongodbAggration from '../../images/certificates/mongodb-aggregation.png';
+import diploma from '../../images/certificates/diploma.jpeg';
+// import mongodbPayment from '../../images/certificates/payment.png';
 import programmingContest from '../../images/certificates/programming-contest.jpg';
 import internshipCertificate from '../../images/certificates/Fahad-Hossain-MERN-Internship-certificate.jpg';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
@@ -13,7 +16,7 @@ import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Achivement = () => {
-    const certificates = [ictob, knowAboutIctob, programmingContest, linkedin, skillsCompetition, internshipCertificate];
+    const certificates = [ictob, knowAboutIctob, diploma, programmingContest, linkedin, skillsCompetition, internshipCertificate, mongodbAggration];
 
     let slideToShow;
     const deviceWidth = window.innerWidth;

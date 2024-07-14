@@ -23,20 +23,20 @@ const index = () => {
                             <Link activeClass=' pt-5  text-[#ff6d5a] h-[50px] cursor-pointer' to="skills" spy={true} smooth={true} duration={700}>Skills</Link>
                         </li>
 
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                        {/* <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
                             <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="services" spy={true} smooth={true} duration={900} >Services</Link>
-                        </li>
+                        </li> */}
 
                         <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
-                            <Link activeClass='text-[#ff6d5a] h-[50px] cursor-pointer' to="protfolio" spy={true} smooth={true} duration={1500} >Portfolio</Link>
-                        </li>
-
-                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
-                            <Link activeClass='text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Reviews</Link>
+                            <Link activeClass='text-[#ff6d5a] h-[50px] cursor-pointer' to="protfolio" spy={true} smooth={true} duration={1500} >Projects</Link>
                         </li>
 
                         <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
                             <Link activeClass=' text-[#ff6d5a] h-[50px] cursor-pointer' to="exprience" spy={true} smooth={true} duration={1800} >Exprience</Link>
+                        </li>
+
+                        <li className='p-2 hover:border-b-2 hover:border-b-[#ff6d5a] hover:text-[#ff6d5a] h-[50px] cursor-pointer'>
+                            <Link activeClass='text-[#ff6d5a] h-[50px] cursor-pointer' to="reviews" spy={true} smooth={true} duration={1800} >Reviews</Link>
                         </li>
 
 
